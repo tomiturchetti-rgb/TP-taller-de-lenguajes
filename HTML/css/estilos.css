@@ -1,6 +1,25 @@
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+    --color-principal: teal;
+    --color-texto: #222;
+    --color-fondo: #f4f4f4;
+
+    --fuente-principal: Arial, sans-serif;
+ 
+}
+
+/* Estilos de body*/
 body {
-    font-family: Arial, sans-serif;
-    color: #222;
+    font-family: var(--fuente-principal);
+    color: var(--color-texto);
+    background-color: var(--color-fondo)
 }
 
 /* =========================
