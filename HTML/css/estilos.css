@@ -10,7 +10,6 @@
     --color-principal: teal;
     --color-texto: #222;
     --color-fondo: #f1f1f1;
-
     --fuente-principal: Arial, sans-serif;
  
 }
@@ -27,14 +26,15 @@ body {
 ========================= */
 
 main {
-    padding: 2rem 0;
+    padding: 25px;
 }
 
-section {
-    margin-bottom: 2rem;
-    padding: 1rem;
-    background-color: #f4f4f4;
-    border-radius: 8px;
+
+section{
+    background: white;
+    padding: 50px;
+    margin-bottom: 20px;
+    border-radius: 20px;
 }
 
 /* =========================
@@ -121,21 +121,5 @@ img {
 
 .boton:hover{
     background-color: #7ed6df;
-}
-
-
-/*Section*/
-
-section{
-    background: white;
-    padding: 50px;
-    margin-bottom: 20px;
-    border-radius: 20px;
-}
-
-
-
-main{
-    padding: 40px;
 }
 
