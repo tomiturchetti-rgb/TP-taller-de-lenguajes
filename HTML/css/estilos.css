@@ -9,7 +9,7 @@
 :root {
     --color-principal: teal;
     --color-texto: #222;
-    --color-fondo: #f4f4f4;
+    --color-fondo: #f1f1f1;
 
     --fuente-principal: Arial, sans-serif;
  
@@ -80,3 +80,62 @@ img {
     height: auto;
     border-radius: 8px;
 }
+
+
+/*ID CIERRE*/
+
+#cierre{
+    background-color: var(--color-principal);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+#cierre h3{
+    font-size: 35px;
+}
+
+#cierre p{
+    font-size: 1.0rem;
+    line-height: 1.5rem;
+}
+
+#cierre a{
+    color:#7ed6df;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*Botones*/
+.boton{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: var(--color-principal);
+    text-decoration: none;
+    color: var(--color-fondo);
+    border-radius: 5px;
+
+}
+
+.boton:hover{
+    background-color: #7ed6df;
+}
+
+
+/*Section*/
+
+section{
+    background: white;
+    padding: 50px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+
+
+main{
+    padding: 40px;
+}
+
