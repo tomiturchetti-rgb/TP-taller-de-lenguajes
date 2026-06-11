@@ -136,3 +136,40 @@ article{
 article:hover{
             transform: scale(1.02);
         }
+
+        /* =========================
+   HEADER Y NAV
+========================= */
+
+header {
+    background-color: var(--color-principal);
+    padding: 20px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: white;
+    margin-bottom: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #7ed6df;
+    color: var(--color-texto);
+}
