@@ -173,3 +173,55 @@ nav ul li a:hover {
     background-color: #7ed6df;
     color: var(--color-texto);
 }
+
+h2{
+    color: rgb(0, 53, 53);
+}
+
+/* =========================
+   SECCIONES - INDEX
+========================= */
+
+section {
+    background: white;
+    padding: 50px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+section img {
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+section ul {
+    margin-left: 20px;
+    margin-bottom: 1rem;
+}
+
+section ul li {
+    line-height: 1.9;
+}
+
+section a {
+    color: var(--color-principal);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section a:hover {
+    color: #7ed6df;
+}
+
+footer {
+    background-color: var(--color-principal);
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+}
