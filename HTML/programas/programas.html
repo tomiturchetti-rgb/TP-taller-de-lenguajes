@@ -1,105 +1,272 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuestros programas</title>
+
+    <title>Programas - Gitpeace</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <h1>Nuestros programas</h1>
-        <p>
-            Trabajamos en distintas iniciativas para proteger el ambiente y generar un cambio real en 
-            la sociedad.
-        </p>
+
+<body class="bg-light">
+
+    <header class="bg-success text-white shadow-sm">
+        <nav class="navbar navbar-expand-lg navbar-dark container">
+            <a class="navbar-brand fw-bold" href="/HTML/index.html">Gitpeace</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/HTML/index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/HTML/nosotros/nosotros.html">Nosotros</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/HTML/programas/programas.html">Programas</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/HTML/contactos/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
-    <main>
-        <section id="introduccion">
-            <p>
-                Nuestros programas están pensados para abordar diferentes problematicas
+
+    <main class="container py-5">
+
+        <section class="text-center mb-5">
+            <h2 class="fw-bold mb-3">🌱 Nuestros programas</h2>
+
+            <p class="lead">
+                Trabajamos en distintas iniciativas para proteger el ambiente y generar un cambio real en
+                la sociedad.
+                Nuestros programas están pensados para abordar diferentes problemáticas
                 ambientales desde la acción.
                 A través de ellos buscamos generar conciencia, proteger los ecosistemas
-                y promover prácticas  sostenibles en la comunidad.
+                y promover prácticas sostenibles en la comunidad.
+            </p>
+        </section>
+
+        <div class="row g-4">
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow">
+
+                    <img src="../imagenes/proteccionbiodiversidad.jpg"
+                        class="card-img-top"
+                        alt="Manos sostienen una planta pequeña mientras una mariposa se posa entre sus hojas.">
+
+                    <div class="card-body d-flex flex-column">
+
+                        <h2 class="card-title h4">
+                            Conservación de la Biodiversidad
+                        </h2>
+
+                        <p class="card-text">
+                            Este programa se enfoca en la protección de las especies y ecosistemas,
+                            buscamos preservar el equilibrio natural.
+                        </p>
+
+                        <ul>
+                            <li>Restauración de hábitats naturales</li>
+                            <li>Reforestación de espacios verdes</li>
+                            <li>Monitoreo de flora y fauna</li>
+                        </ul>
+
+                        <p><strong>Impacto</strong></p>
+
+                        <p>
+                            Contribuye a mantener la biodiversidad y mejorar la calidad ambiental.
+                        </p>
+
+                        <a href="biodiversidad.html" class="mt-auto">
+                            <button class="btn btn-success">
+                                Ver más
+                            </button>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow">
+
+                    <img src="../imagenes/educacionambiental.jpg"
+                        class="card-img-top"
+                        alt="Un niño levanta una maqueta de aerogenerador y la mira con interés">
+
+                    <div class="card-body d-flex flex-column">
+
+                        <h2 class="card-title h4">
+                            Educación Ambiental
+                        </h2>
+
+                        <p>
+                            Promueve la conciencia ambiental a través de la educación y la
+                            participación de la comunidad.
+                        </p>
+
+                        <ul>
+                            <li>Talleres para escuelas</li>
+                            <li>Charlas comunitarias</li>
+                            <li>Campañas de concientización</li>
+                        </ul>
+
+                        <p><strong>Impacto</strong></p>
+
+                        <p>
+                            Genera hábitos responsables y fortalece el compromiso ambiental.
+                        </p>
+
+                        <a href="educacion-ambiental.html" class="mt-auto">
+                            <button class="btn btn-success">
+                                Ver más
+                            </button>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+                    <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow">
+
+                    <img src="../imagenes/desarrollosostenible.jpg"
+                        class="card-img-top"
+                        alt="Una mano sostiene un pequeño brote verde sobre tierra fértil.">
+
+                    <div class="card-body d-flex flex-column">
+
+                        <section id="desarrollo-sostenible">
+
+                            <h2 class="card-title h4">
+                                Desarrollo Sostenible
+                            </h2>
+
+                            <p>
+                                Impulsamos acciones que favorecen el crecimiento económico,
+                                social y ambiental de manera equilibrada.
+                            </p>
+
+                            <ul>
+                                <li>Promoción de energías renovables</li>
+                                <li>Gestión responsable de residuos</li>
+                                <li>Consumo consciente</li>
+                            </ul>
+
+                            <p><strong>Impacto</strong></p>
+
+                            <p>
+                                Fomentamos comunidades más responsables y comprometidas con
+                                el cuidado del planeta.
+                            </p>
+
+                            <a href="desarrollo-sostenible.html" class="mt-auto">
+                                <button class="btn btn-success">
+                                    Ver más
+                                </button>
+                            </a>
+
+                        </section>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <section class="text-center py-5">
+
+            <h2 class="fw-bold mb-3">
+                Nuestro impacto
+            </h2>
+
+            <p class="lead">
+                Cada uno de nuestros programas busca generar cambios positivos en el ambiente
+                y en la sociedad mediante la participación activa de las personas.
             </p>
 
-        <section id="biodiversidad">
-            <h2>Conservación de la Biodiversidad</h2>
-            <img src="imagenes/proteccionbiodiversidad.jpg" width="250" alt="Manos sostienen una planta pequeña mientras una mariposa se posa entre sus hojas.">
-            <p>
-                Este programa se enfoca en la proteccion de las especies y ecocistemas,
-                buscamos preservar el equilibro natural.
+            <div class="row mt-4">
+
+                <div class="col-md-4 mb-3">
+                    <div class="card border-success shadow-sm">
+                        <div class="card-body">
+                            <h3 class="text-success">+500</h3>
+                            <p>Árboles plantados</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <div class="card border-success shadow-sm">
+                        <div class="card-body">
+                            <h3 class="text-success">+1200</h3>
+                            <p>Personas capacitadas</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <div class="card border-success shadow-sm">
+                        <div class="card-body">
+                            <h3 class="text-success">+50</h3>
+                            <p>Actividades comunitarias</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="bg-success text-white rounded text-center p-5 mt-5">
+
+            <h2 class="fw-bold">
+                Sumate a nuestros programas
+            </h2>
+
+            <p class="mt-3">
+                Tu participación puede marcar la diferencia.
+                Juntos podemos construir un futuro más sostenible.
             </p>
-            <ul>
-                <li>Restauracion de hábitats naturales</li>
-                <li>Reforestación de espacios verdes</li>
-                <li>Monitoreo de flora y fauna</li>
-    
-            </ul>
-            <p><strong>Impacto</strong></p>
-            <p>Contribuye a mantener la biodiversidad y mejorar la calidad ambiental</p>
-            <a href="biodiversidad.html">
-                <button type="button">Ver más</button>
+
+            <a href="/HTML/contactos/contacto.html" class="btn btn-light btn-lg mt-3">
+                Contactanos
             </a>
 
         </section>
 
-        <section id="educacion-ambiental">
-            <h2>Educación Ambiental</h2>
-            <img src="imagenes/niñoconaerogenerador.png" width="250" alt="un niño levanta una maqueta de aerogenerador y la mira con interes">
-        
-            <p>
-                Promueve la conciencia ambiental a través de la educacion y la 
-                participación de la comunidad.
-            </p>
-            <ul>
-                <li>Charlas en instituciones educativas</li>
-                <li>Talleres abiertos a la comunidad</li>
-                <li>Campañas de concientización</li>
-            </ul>
-            <p><strong>Impacto:</strong></p>
-            <p>Fomenta hábitos responsables y genera cambios a largo plazo.</p>
-            <a href="educacion.html">
-                <button type="button">Ver más</button>
-            </a>
-            
-        </section>
-
-        <section id="desarrollo-sostenible">
-            <h2>Desarrollo Sostenible</h2>
-            <img src="imagenes/desarrollo-sostenible.jpg" width="250" alt="Infografía que muestra que el desarrollo sostenible implica crecimiento económico, desarrollo social y cuidado ambiental.">
-            <p>
-                Impulsa prácticas que permiten el desarrollo sin dañar el ambiente
-                ni comprometer recursos futuros.
-            </p>
-            <ul>
-                <li>Promoción del reciclaje</li>
-                <li>Uso eficiente del recurso</li>
-                <li>Implementación de proyectos sustentables</li>
-            </ul>
-            <p><strong>Impacto:</strong></p>
-            <p>Mejora la calidad de vida respetando el entorno.</p>
-            <a href="desarrollo-sostenible.html">
-                <button type="button">Ver más</button>
-            </a>
-        </section>
-
-       <section id="impacto-general">
-        <h3>Nuestro impacto</h3>
-        <ul>
-            <li>Más de 500 árboles plantados</li>
-            <li>Más de 300 personas capacitadas</li>
-            <li>Más de 50 actividades realizadas</li>
-        </ul>
-        </section>
-
-        <section id="cierre">
-            <h3>Sumate</h3>
-            <p>Podés ser parte del cambio participando en nuestras actividades,
-                difundiendo nuestras acciones o colaborando como voluntario.
-            </p>
-        </section>
     </main>
-    
-    
+
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+
+        <p class="mb-1">
+            © 2025 Gitpeace - Todos los derechos reservados.
+        </p>
+
+        <p class="mb-0">
+            Cuidemos el planeta juntos 🌎
+        </p>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
+
 </html>

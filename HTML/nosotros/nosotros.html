@@ -5,48 +5,141 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nosotros - Gitpeace</title>
 
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>
 
-<header>
-    <h1>Gitpeace</h1>
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="nosotros.html">Nosotros</a></li>
-            <li><a href="programas.html">Programas</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
+<body class="bg-light">
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success shadow">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="../index.html">
+                Gitpeace
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="nosotros.html">Nosotros</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../programas/programas.html">Programas</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../contacto/contacto.html">Contacto</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
     </nav>
-</header>
 
-<main>
-    <section>
-        <h2>Sobre Nosotros</h2>
-        <p>
-            Gitpeace es una organización sin fines de lucro que trabaja por el cuidado del medioambiente mediante la cooperación y el uso responsable de los recursos naturales.
+    <!-- CONTENIDO -->
+
+    <main class="container my-5">
+
+        <h1 class="text-center mb-5">
+            Sobre Nosotros
+        </h1>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+
+                <div class="card h-100 shadow">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title text-success">
+                            Sobre Nosotros
+                        </h3>
+
+                        <p class="card-text">
+                            Gitpeace es una organización sin fines de lucro que trabaja por el cuidado del medioambiente mediante la cooperación y el uso responsable de los recursos naturales.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card h-100 shadow">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title text-success">
+                            Misión
+                        </h3>
+
+                        <p class="card-text">
+                            Promover la sostenibilidad ambiental a través de la educación, la concientización y el trabajo conjunto con la comunidad.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card h-100 shadow">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title text-success">
+                            Visión
+                        </h3>
+
+                        <p class="card-text">
+                            Ser una organización referente en el desarrollo de iniciativas ecológicas que integren el crecimiento económico con el respeto por el medioambiente.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer class="bg-success text-white text-center py-4 mt-5">
+
+        <p class="mb-0">
+            &copy; 2026 Gitpeace. Todos los derechos reservados.
         </p>
-    </section>
 
-    <section>
-        <h2>Misión</h2>
-        <p>
-            Promover la sostenibilidad ambiental a través de la educación, la concientización y el trabajo conjunto con la comunidad.
-        </p>
-    </section>
+    </footer>
 
-    <section>
-        <h2>Visión</h2>
-        <p>
-            Ser una organización referente en el desarrollo de iniciativas ecológicas que integren el crecimiento económico con el respeto por el medioambiente.
-        </p>
-    </section>
-</main>
-
-<footer>
-    <p>&copy; 2026 Gitpeace. Todos los derechos reservados.</p>
-</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
