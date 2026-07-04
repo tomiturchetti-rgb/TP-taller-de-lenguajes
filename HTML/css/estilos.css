@@ -225,3 +225,21 @@ footer {
     text-align: center;
     padding: 20px 25px;
 }
+
+body.oscuro {
+    --color-principal: #1a6363;
+    --color-fondo: #1a1a1a;
+    --color-texto: #f1f1f1;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+}
+
+body.oscuro section,
+body.oscuro article {
+    background-color: #2a2a2a;
+}
+
+body.oscuro header,
+body.oscuro footer {
+    background-color: #111;
+}
