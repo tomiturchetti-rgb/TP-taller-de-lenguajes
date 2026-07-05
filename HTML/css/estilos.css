@@ -76,12 +76,23 @@ article {
 }
 
 img {
-    max-width: 100%;
+    max-width: 400px;
     height: auto;
     border-radius: 8px;
 }
+/*
+article img {
+    width: 100%;
+}
 
-
+section img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+*/
 /*ID CIERRE*/
 
 #cierre{
