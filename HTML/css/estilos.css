@@ -80,19 +80,6 @@ img {
     height: auto;
     border-radius: 8px;
 }
-/*
-article img {
-    width: 100%;
-}
-
-section img {
-    width: 100%;
-    max-width: 250px;
-    height: auto;
-    display: block;
-    margin: 0 auto 20px auto;
-}
-*/
 /*ID CIERRE*/
 
 #cierre{
@@ -253,4 +240,38 @@ body.oscuro article {
 body.oscuro header,
 body.oscuro footer {
     background-color: #111;
+}
+
+#indice-programas,
+#indice-nosotros {
+    background: white;
+    padding: 20px 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+#indice-programas ul,
+#indice-nosotros ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+#indice-programas ul li a,
+#indice-nosotros ul li a {
+    color: var(--color-principal);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 6px 12px;
+    border: 2px solid var(--color-principal);
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+#indice-programas ul li a:hover,
+#indice-nosotros ul li a:hover {
+    background-color: var(--color-principal);
+    color: white;
 }
